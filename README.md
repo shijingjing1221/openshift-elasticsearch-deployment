@@ -86,8 +86,9 @@ fi
 </code></pre>
 </li>
 <li>
-Push the code, and then the elastcsearch is running as a service.
-<pre><code>git push
+Commit and push the code, and then the elastcsearch is running as a service.
+<pre><code>git commit -am "Start the elastcsearch intead of the default ruby service"
+</code><code>git push
 </code></pre>
 </li>
 </ol>
