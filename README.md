@@ -60,12 +60,12 @@ Enter `Ctrl+C` to exit
 <h2>Start the elasticsearch as a service</h2>
 <ol>
 <li>
-Checkout the code from git
+Checkout the code your local machine by executing:
 <pre><code>git checkout ssh://XXX@elastic-shijingjing1221.rhcloud.com/~/git/elastic.git/
 </code></pre>
 </li>
 <li>
-Edit the file <i>.openshift/action_hooks/start</i>, replace the content to 
+Edit the file in this project <i>.openshift/action_hooks/start</i>, replace the content to 
 <pre><code>${OPENSHIFT_DATA_DIR}elasticsearch/bin/elasticsearch -d
 </code></pre>
 Edit the file <i>.openshift/action_hooks/stop</i>, replace the content to 
