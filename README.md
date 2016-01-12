@@ -33,9 +33,10 @@ Rename elasticsearch
 </ol>
 
 
-<h2>Edit the elasticsearch conf file to fit the openshift</h2>
+<h2>Setup the elasticsearch process on openshift</h2>
 <ol>
 <li>
+Edit the elasticsearch conf file to fit the openshift
 <pre><code>vim elasticsearch/config/elasticsearch.yml
 </code></pre>
 Add the following lines to the elasticsearch.yml
